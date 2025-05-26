@@ -30,6 +30,7 @@ p {
 .btn:hover {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.938), #ffa60098);
   color: white;
+  box-shadow: 4px 8px 4px #00000033;
 }
 
 /* header */
@@ -40,7 +41,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 25px 6.25%;
-
 }
 header h1 {
   font-size: 28px;
@@ -83,7 +83,8 @@ header h1 span {
 
 /* blog */
 #blog,
-#target {
+#target,
+#inspiration {
   margin: 100px auto;
   width: 87.5%;
 }
@@ -127,21 +128,20 @@ header h1 span {
 }
 
 #inspiration-video {
+    text-align: center;
   border: 1px solid #818192;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 250px;
-  margin-right: 250px;
-  border-radius: 30px;
-  height: 700px;
-  margin-top: 50px;
+  border-radius: 16px;
+  max-width: 1100px;
+  height: 600px;
+  margin: 0 auto;
 }
 #inspiration-video iframe {
-  margin: 60px;
-  width: 1500px;
-  height: 650px;
-  border-radius: 30px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 1036px;
+  height: 556px;
 }
 
 /* target */
@@ -167,7 +167,7 @@ header h1 span {
 
 #target-card-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -178,9 +178,9 @@ header h1 span {
   margin: 20px;
 }
 footer {
-    padding: 0px 6.25%;
-    background-color: #e6edf9;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 0px 6.25%;
+  background-color: #e6edf9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
