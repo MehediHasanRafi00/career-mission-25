@@ -16,9 +16,9 @@
   #blog-content {
     flex-direction: column-reverse;
   }
- footer {
-    flex-direction: column
- }
+   .social-link a img {
+  width: 30px;
+  margin: 10px;
 }
 /* mobile device */
 @media screen and (max-width: 640px) {
@@ -49,4 +49,7 @@
 .copyright h3 {
     text-align: center;
 }
+   footer {
+    flex-direction: column
+ }
 }
