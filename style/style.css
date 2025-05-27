@@ -41,10 +41,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 25px 6.25%;
+  
 }
 header h1 {
   font-size: 28px;
-  font-weight: bolder;
+  font-weight: 800;
   color: #0d1321;
 }
 header h1 span {
@@ -67,7 +68,7 @@ header h1 span {
 }
 #banner h2 {
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 800;
   color: #0d1321;
   margin-bottom: 32px;
 }
@@ -101,16 +102,21 @@ header h1 span {
 }
 .heading-content h2 {
   font-size: 32px;
-  font-weight: bolder;
+  font-weight: 800;
   color: #0d1321;
 }
 .heading-content p {
   font-size: 16px;
   color: #0d1321;
-  margin: 48px 0 50px 0;
+  margin: 35px 0 50px 0;
+}
+.blog-content-text h3 {
+  font-size: 24px ;
+  color: #0D1321B3;
 }
 .blog-content-text p {
-  margin: 40px 0;
+  margin: 35px 0;
+  color: #0d1321;
 }
 .blog-content-img img {
   width: 430.17px;
@@ -167,7 +173,7 @@ header h1 span {
 }
 .target-card h2 {
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 800;
   margin: 20px 0;
 }
 .target-card a {
@@ -183,7 +189,11 @@ header h1 span {
 }
 
 /* footer */
-
+.copyright h3 {
+ font-size: 20px;
+ font-weight: 600;
+ font-family: "Azeret Mono", monospace; ;
+}
 .social-link a img {
   width: 36px;
   margin: 20px;
