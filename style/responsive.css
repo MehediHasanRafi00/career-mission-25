@@ -16,7 +16,10 @@
   #blog-content {
     flex-direction: column-reverse;
   }
-   .social-link a img {
+  #inspiration-video-container {
+    padding: 20px;
+  }
+  .social-link a img {
   width: 30px;
   margin: 10px;
 }
@@ -42,14 +45,19 @@
     width: 100%;
     padding: 40px 240px 40px 40px;
   }
+    #inspiration-video-container {
+    padding: 10px;
+  }
   .social-link a img {
   width: 30px;
   margin: 10px;
 }
 .copyright h3 {
     text-align: center;
+    
 }
-   footer {
+ footer {
     flex-direction: column
  }
-}
+
+} }
